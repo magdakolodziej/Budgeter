@@ -1,0 +1,81 @@
+header {
+  background-color: black;
+}
+span{
+  color: white;
+}
+
+.py-3 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.mb-4{
+  margin-bottom: 1.5rem;
+}
+
+.btn-primary {
+  color: white;
+
+}
+
+.formularz{
+  padding-bottom: 3rem;
+}
+.time{
+  background-color: black;
+  color: white;
+  margin-top: 1rem;
+  padding: 10px;
+}
+
+body {
+  background-image: url("./images/piggy-bank-8968718_1280.jpg");
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+  justify-content: center;
+  font-family: "Sen", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.container{
+padding-top: 30px;
+}
+form{
+  display: block;
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.form-signin{
+  max-width: 330px;
+}
+
+.form-floating{
+  color:black;
+  margin: 5px;
+}
+
+.modal-header{
+  background-color: black;
+  color: white;
+}
+.modal-body{
+  background-color: black;
+}
+.chart{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(52, 51, 51);
+  padding: 1rem;
+}
+
+@media (max-width: 576px) {
+  body {
+    align-items: flex-start;
+    height: 400px;
+  }
+}
